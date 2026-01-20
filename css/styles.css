@@ -219,3 +219,76 @@ body {
   color: #000000;
 }
 
+
+/* Responsive Breakpoints */
+
+/* Small Devices (≤ 576px) */
+@media (max-width: 576px) {
+
+ /* navbar section */
+
+  .nav-menu {
+    position: static;
+    transform: none;
+    flex-direction: column;
+    background: #1b0b3a;
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Show menu when checked */
+  #nav-toggle:checked~.nav-menu {
+    display: flex;
+  }
+
+  /* banner section */
+  .banner {
+    padding: 80px 16px;
+  }
+
+  .podcast-circle {
+    width: 140px;
+    height: 140px;
+  }
+
+  .mic-image {
+    width: 48px;
+  }
+
+  .banner-title {
+    font-size: 38px;
+  }
+
+  .banner-description {
+    font-size: 14px;
+  }
+
+}
+
+/* Medium Devices (576px – 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+
+  .banner-title {
+    font-size: 46px;
+  }
+
+  .podcast-circle {
+    width: 160px;
+    height: 160px;
+  }
+
+}
+
+
+
