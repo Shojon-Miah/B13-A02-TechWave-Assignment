@@ -1,0 +1,221 @@
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #0f0f1a;
+}
+
+/* Reusable container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+
+/* Navbar base */
+.navbar {
+  background: linear-gradient(180deg, #1b0b3a, #120726);
+  padding: 20px 0;
+}
+
+.nav-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logo span {
+  color: #ff3cac;
+}
+
+/* Menu center */
+.nav-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 32px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-size: 14px;
+}
+
+.nav-menu a:hover {
+  color: #ffffff;
+}
+
+/* Gradient button */
+.nav-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff3cac, #784ba0, #2b86c5);
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Hamburger hidden on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 22px;
+  height: 2px;
+  background: #fff;
+}
+
+/* Hide checkbox */
+#nav-toggle {
+  display: none;
+}
+
+
+/*  Banner Section  */
+
+.banner {
+  min-height: 100%;
+  background: linear-gradient( rgba(18, 8, 38, 0.85), rgba(18, 8, 38, 0.85)), url("../images/hero-bg.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: #ffffff;
+  padding: 60px 20px;
+}
+
+.banner-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Podcast Circle */
+
+.podcast-circle {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 30px;
+
+  background: linear-gradient(135deg, #7f5cff, #ff6fd8);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.mic-image {
+  width: 60px;
+  height: auto;
+}
+
+/* NEW Badge */
+
+.badge-new {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  background: #ff4d4f;
+  color: #fff;
+
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+/* Banner Text */
+
+.banner-title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.banner-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #dcdcdc;
+  margin-bottom: 30px;
+}
+
+ /* Banner Buttons */
+
+.banner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 26px;
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+/* Primary Button */
+
+.btn-primary {
+  background: #1db954;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #17a44a;
+}
+
+/* Secondary Button */
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
