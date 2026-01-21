@@ -35,11 +35,20 @@ body {
 }
 
 /* Logo */
+
 .logo {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: 700;
   color: #ffffff;
 }
+
+.logo-gradient {
+  background: linear-gradient(90deg, #ff4ecd, #8f6bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 .logo span {
   color: #ff3cac;
@@ -495,17 +504,6 @@ body {
   color: #cfc9ff;
 }
 
-.logo {
-  font-size: 28px;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.logo-gradient {
-  background: linear-gradient(90deg, #ff4ecd, #8f6bff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .footer-platforms {
   display: flex;
   justify-content: center;
