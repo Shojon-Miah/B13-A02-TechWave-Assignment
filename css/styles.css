@@ -37,13 +37,13 @@ body {
 /* Logo */
 
 .logo {
-  font-size: 28px;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #ffffff;
 }
 
 .logo-gradient {
-  background: linear-gradient(90deg, #ff4ecd, #8f6bff);
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -130,8 +130,8 @@ body {
 /* Podcast Circle */
 
 .podcast-circle {
-  width: 180px;
-  height: 180px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto 30px;
 
   background: linear-gradient(135deg, #7f5cff, #ff6fd8);
@@ -142,10 +142,15 @@ body {
   justify-content: center;
 
   position: relative;
+
+  box-sizing: border-box;
+  border: 8px solid rgba(42, 24, 108, 1);
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+
 }
 
 .mic-image {
-  width: 60px;
+  width: 100px;
   height: auto;
 }
 
@@ -203,7 +208,7 @@ body {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #ffffff;
 
   background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
   /* background: linear-gradient(90deg, #ff4ecd, #8f6bff); */
@@ -234,7 +239,7 @@ body {
 
 .about {
   padding: 100px 20px;
-  background-color: #0b0220;
+  background: linear-gradient( rgba(18, 8, 38, 0.85), rgba(18, 8, 38, 0.85));
   color: #ffffff;
 }
 
@@ -260,8 +265,9 @@ body {
   margin: 0 auto;
   font-size: 15px;
   line-height: 1.6;
-  color: #cfcfcf;
+  color: #ffffff;
 }
+
 
 /* ---------- Stats Cards ---------- */
 
@@ -272,7 +278,7 @@ body {
 }
 
 .stat-item {
-  background: linear-gradient(135deg, #160b32, #1c0f3a);
+  
   padding: 36px 20px;
   border-radius: 18px;
 
@@ -286,7 +292,7 @@ body {
 
 .stat-item h3 {
   font-size: 34px;
-  color: #5cff74;
+  color: #00FF88;
   margin-bottom: 6px;
 }
 
@@ -403,6 +409,7 @@ body {
   margin-top: auto;
   font-size: 13px;
   opacity: 0.8;
+  color: rgba(0, 255, 136, 1);
 }
 
 /* Meet The Host */
