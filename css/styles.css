@@ -397,7 +397,80 @@ body {
   opacity: 0.8;
 }
 
+/* Meet The Host */
 
+.host {
+  padding: 100px 20px;
+  background: radial-gradient(circle at left, #2b0f54, #120322);
+  color: #fff;
+}
+
+.host-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.host-image img {
+  width: 320px;
+  border-radius: 20px;
+}
+
+.host-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.host-content h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.host-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #d7cfee;
+  max-width: 480px;
+}
+
+/* Gradient icons */
+.host-social {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.host-social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #ff5ec4, #8f6bff);
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.host-social a:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+
+/* .host-social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #ff5ec4, #8f6bff);
+  color: #fff;
+  font-size: 18px;
+} */
 
 /* Responsive Breakpoints */
 
@@ -409,6 +482,27 @@ body {
     gap: 18px;
   }
 }
+
+/* meet the host */
+@media (max-width: 768px) {
+  .host-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-image img {
+    width: 240px;
+  }
+
+  .host-content p {
+    margin: 0 auto;
+  }
+
+  .host-social {
+    justify-content: center;
+  }
+}
+
 
 @media (min-width: 576px) and (max-width: 992px) {
   .stats {
