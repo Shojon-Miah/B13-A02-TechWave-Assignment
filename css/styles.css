@@ -472,6 +472,65 @@ body {
   font-size: 18px;
 } */
 
+ /* Footer  */
+
+.footer {
+  position: relative;
+  background: linear-gradient(180deg, #1a082d, #12051f);
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+.footer-bg {
+  position: absolute;
+  inset: 0;
+  background: url("../images/footer-bg.png") center bottom / cover no-repeat;
+  opacity: 0.25;
+  pointer-events: none;
+}
+.footer-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #cfc9ff;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logo-gradient {
+  background: linear-gradient(90deg, #ff4ecd, #8f6bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-platforms {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.footer-platforms span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #d6d1ff;
+  cursor: pointer;
+}
+
+.footer-platforms i {
+  font-size: 16px;
+  color: #9f8cff;
+}
+
+
+
+
 /* Responsive Breakpoints */
 
 /* ---------- Responsive ---------- */
